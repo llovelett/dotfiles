@@ -3,7 +3,7 @@
 # for examples
 
 export MY_BIN="$HOME/bin"
-export PATH="$MY_BIN:$PATH"
+export PATH="$MY_BIN:/usr/local/bin:$PATH"
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
